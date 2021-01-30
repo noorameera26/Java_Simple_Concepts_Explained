@@ -18,5 +18,10 @@ public class ArrayEqualsMethods {
         
         System.out.println(arr3.equals(arr4)); //prints false
         System.out.println(Arrays.equals(arr3, arr4)); //prints true
+        
+        /* Note:
+         * The equals() method when applied to Arrays will check for object equivalency (compare reference variables).
+         * Meanwhile, the deepEquals or Arrays.equals() method will check for value equivalency.
+        */
     }
 }
